@@ -1,0 +1,16 @@
+[project]
+name = "ymp-eval"
+version = "0.1.0"
+description = "OCR system for reading trading cards and valuing them against online marketplaces"
+authors = [
+    {name = "Aaron Cassidy",email = "aaron.cassidy1995@gmail.com"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "opencv-python ~= 5.0"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
